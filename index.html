@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aventura com Batman</title>
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="gotham.gif" alt="Gotham City"/>
+        <p>
+          Na fria e sombria noite de Gotham, Batman recebe uma pista de que o Coringa está planejando algo grande. Ele precisa agir rapidamente para impedir o caos iminente. Para onde ele deve ir primeiro?
+        </p>
+        <button class="btn-proximo" data-proximo="1">Investigar o Asilo Arkham</button>
+        <button class="btn-proximo" data-proximo="2">Vasculhar os becos da cidade</button>
+      </div>
+      <div class="passo" id="passo-1">
+        <img src="interrogacao.gif" alt="">
+        <p>
+          No Asilo Arkham, Batman interroga um dos capangas do Coringa. O capanga revela que algo está sendo preparado em um dos armazéns abandonados na periferia de Gotham.
+        </p>
+        <button class="btn-proximo" data-proximo="3">Ir para o armazém</button>
+        <button class="btn-proximo" data-proximo="4">Verificar a Batcaverna para mais pistas</button>
+      </div>
+      <div class="passo" id="passo-2">
+        <img src="beco.gif" alt="">
+        <p>
+          Nos becos sombrios de Gotham, Batman encontra uma pista deixada pelo Coringa: uma carta enigmática com coordenadas. Para onde ele deve seguir?
+        </p>
+        <button class="btn-proximo" data-proximo="5">Seguir as coordenadas</button>
+        <button class="btn-proximo" data-proximo="6">Ignorar a carta e continuar investigando</button>
+      </div>
+      <div class="passo" id="passo-3">
+        <img src="fabrica.gif" alt="">
+        <p>
+          No armazém, Batman descobre uma armadilha montada pelo Coringa. Ele consegue desarmá-la, mas encontra mais pistas sobre um ataque planejado ao centro de Gotham.
+        </p>
+        <button class="btn-proximo" data-proximo="7">Correr para o centro de Gotham</button>
+        <button class="btn-proximo" data-proximo="4">Voltar para a Batcaverna para se preparar</button>
+      </div>
+      <div class="passo" id="passo-4">
+
+        />
+        <img src="pc.gif" alt="">
+        <p>
+          Na Batcaverna, Batman usa seus computadores para analisar as pistas. Ele descobre que o Coringa planeja explodir a estação de trem de Gotham.
+        </p>
+        <button class="btn-proximo" data-proximo="7">Ir até a estação de trem</button>
+      </div>
+      <div class="passo" id="passo-5">
+        <img src="investigation.gif" alt="">
+        <p>
+          As coordenadas levam Batman até uma fábrica abandonada. Lá, ele descobre um esconderijo secreto do Coringa, com um mapa detalhando seus planos.
+        </p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o centro de Gotham</button>
+      </div>
+      <div class="passo" id="passo-6">
+        <img src="armazem.gif" alt="">
+        <p>
+          Ignorando a carta, Batman continua investigando os becos e descobre, por acaso, um confronto entre gangues. Ele neutraliza os criminosos, mas não encontra mais pistas.
+        </p>
+        <button class="btn-proximo" data-proximo="5">Voltar e seguir as coordenadas da carta</button>
+      </div>
+      <div class="passo" id="passo-7">
+        <img src="coringa.gif" alt="">
+        <p>
+          Batman chega ao centro de Gotham a tempo de impedir o ataque do Coringa. Com sua inteligência e força, ele derrota o vilão e mais uma vez salva a cidade.
+        </p>
+        <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
